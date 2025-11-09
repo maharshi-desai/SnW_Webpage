@@ -1,84 +1,292 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Endangered Species</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="species.css">
 </head>
 <body>
-    <div class="main">
-
-        <div class="nav">
-            <div class="nav-part-1">
-                <ul>
-                    <li id="home">Home</li>
-                    <li id="animals">Animals</li>
-                    <li id="birds">Birds</li>
-                    <li id="conservation">Conservation</li>
-                    <li id="contact">Contact</li>
-                </ul>
+    <header>
+        <div class="first-navbar">
+            <div>
+                <h2>Wildlife Watch</h2>
+            </div>
+            <div class="contact">
+                <p>🌿 Protect Nature</p>
+                <p>📞 +91 9099539922</p>
             </div>
         </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="front">Home</a></li>
+                <li><a href="#mammals">Mammals</a></li>
+                <li><a href="#birds">Birds</a></li>
+                <li><a href="#reptiles">Reptiles</a></li>
+                <li><a href="#amphibians">Amphibians</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <button class="sign-up-btn"><a href="#contact">Join Us</a></button>
+        </nav>
+    </header>
 
+
+    <section class="main" id="home">
         <div class="content">
-            <div class="content-left">
-                <h2>Save the Wildlife</h2>
-                <img src="https://sigearth.com/wp-content/uploads/2019/03/Earth_Day_2019_Protect_Our_Species_300x200.jpg" alt="logo">
-                <h1>Endangered Species</h1>
-                <p>These incredible animals are disappearing fast. Let's protect them before it's too late.</p>
-                <a href="https://www.britannica.com/science/endangered-species" target="_blank">
-                    <button class="btn">Learn More</button>
-                </a>
-
-            </div>
-
-            <div class="content-right">
-
-                <div class="species">
-                    <img src="https://bigcatsindia.com/wp-content/uploads/2018/06/Royal-Bengal-Tiger.jpg" alt="Bengal Tiger">
-                    <h4>Bengal Tiger</h4>
-                    <p class="fact">Fact: Bengal tigers have unique stripe patterns like human fingerprints, are powerful swimmers, and can run up to 40 mph for short distances.</p>
-                </div>
-
-                <div class="species">
-                    <img src="https://media.cnn.com/api/v1/images/stellar/prod/160825160953-05-week-in-photos-0826.jpg?q=w_3500,h_1969,x_0,y_0,c_fill" alt="Giant Panda">
-                    <h4>Giant Panda</h4>
-                    <p class="fact">Fact: Giant pandas are fascinating bears with unique adaptations, such as a "false thumb" for gripping bamboo and spending up to 16 hours a day eating it.</p>
-                </div>
-
-                <div class="species">
-                    <img src="https://s.abcnews.com/images/US/black-rhino-01-as-nc-190907_hpMain_16x9_1600.jpg" alt="Black Rhino">
-                    <h4>Black Rhino</h4>
-                    <p class="fact">Fact: Black rhinos are solitary and territorial, and their horns are made of keratin, similar to human hair and nails.</p>
-                </div>
-
-                <div class="species">
-                    <img src="https://www.fisheries.noaa.gov/s3//dam-migration/hawksbill_sea_turtle.jpg" alt="Hawksbill Turtle">
-                    <h4>Hawksbill Turtle</h4>
-                    <p class="fact">Fact: Hawksbill turtles are named for their hawk-like beaks, which help them eat sponges and other food from reef crevices.</p>
-                </div>
-
-                <div class="species">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Orangutan_001.jpeg/1200px-Orangutan_001.jpeg" alt="Orangutan">
-                    <h4>Orangutan</h4>
-                    <p class="fact">Fact: They are one of humans' closest relatives, sharing approximately 97% of their DNA, and build elaborate nests for sleeping.</p>
-                </div>
-
-                <div class="species">
-                    <img src="https://i.natgeofe.com/k/4cf56024-edd3-4ed7-8a80-d81d90ab78ba/arctic-fox_square.jpg" alt="Arctic Fox">
-                    <h4>Arctic Fox</h4>
-                    <p class="fact">Fact: They are also monogamous, have dens that can be centuries old, and can track a seal from a mile away with their keen sense of smell.</p>
-                </div>
-                
-
+            <div class="main-content">
+                <p>TOGETHER WE CAN SAVE THEM</p>
+                <h1>Protect <span>Endangered Species</span></h1>
+                <button class="cta-btn">Learn More</button>
             </div>
         </div>
-    </div>
+    </section>
 
+    <section class="featured" id="mammals">
+        <h1 class="fd">Endangered Mammals</h1>
+
+        <div class="box" id="featured-box">
+            <div class="animal-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToNRDU9KYnAwlNsJvii7njscMkZtXd9i8wkg&s" alt="Tiger">
+                <div class="info">
+                    <h3>Bengal Tiger</h3>
+                    <p>The Bengal tiger is the most numerous tiger subspecies, with populations primarily in India, Bangladesh, Nepal, and Bhutan.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="https://www.khao-sok-riverside-cottages.com/wp-content/uploads/2018/09/asian-elephant-khao-sok.jpg" alt="Elephant">
+                <div class="info">
+                    <h3>Asian Elephant</h3>
+                    <p>Population decline caused by deforestation and illegal ivory trade.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="gorilla.jpeg" alt="Mountain Gorilla">
+                <div class="info">
+                    <h3>Mountain Gorilla</h3>
+                    <p>Powerful yet gentle primates found in the volcanic mountains of Central Africa.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="orang.webp" alt="Orangutan">
+                <div class="info">
+                    <h3>Orangutan</h3>
+                    <p>Highly intelligent primates known for their reddish-brown hair and tree-dwelling habits.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="panda.webp" alt="Giant Panda">
+                <div class="info">
+                    <h3>Giant Panda</h3>
+                    <p>Known for their distinctive black and white coloring, giant pandas are native to China and primarily eat bamboo.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="racoon.jpeg" alt="Raccoon">
+                <div class="info">
+                    <h3>Raccoon</h3>
+                    <p>Raccoons are known for their intelligence and adaptability, but they face threats from habitat loss and hunting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="featured" id="birds">
+        <h1 class="fd">Endangered Birds</h1>
+        <div class="box" id="featured-box">
+            <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1501706362039-c6e8090f0d2b" alt="Spoon-billed Sandpiper">
+                <div class="info">
+                    <h3>Spoon-billed Sandpiper</h3>
+                    <p>Critically endangered due to habitat loss and disturbance in breeding grounds.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1517816428104-7f9f5a2c8e8e" alt="California Condor">
+                <div class="info">
+                    <h3>California Condor</h3>
+                    <p>Once nearly extinct, now recovering through captive breeding programs.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1517816428104-7f9f5a2c8e8e" alt="California Condor">
+                <div class="info">
+                    <h3>California Condor</h3>
+                    <p>Once nearly extinct, now recovering through captive breeding programs.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1517816428104-7f9f5a2c8e8e" alt="California Condor">
+                <div class="info">
+                    <h3>California Condor</h3>
+                    <p>Once nearly extinct, now recovering through captive breeding programs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="featured" id="reptiles">
+        <h1 class="fd">Endangered Reptiles</h1>
+        <div class="box" id="featured-box">
+
+            <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1549924231-f129b911e442" alt="Hawksbill Turtle">
+                <div class="info">
+                    <h3>Hawksbill Turtle</h3>
+                    <p>Critically endangered due to illegal trade of their shells and habitat loss.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7" alt="Komodo Dragon">
+                <div class="info">
+                    <h3>Komodo Dragon</h3>
+                    <p>Vulnerable species found in Indonesia, threatened by habitat loss and human activities.</p>
+                </div>
+            </div>
+
+           <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1549924231-f129b911e442" alt="Hawksbill Turtle">
+                <div class="info">
+                    <h3>Hawksbill Turtle</h3>
+                    <p>Critically endangered due to illegal trade of their shells and habitat loss.</p>
+                </div>
+            </div> 
+
+            <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1549924231-f129b911e442" alt="Hawksbill Turtle">
+                <div class="info">
+                    <h3>Hawksbill Turtle</h3>
+                    <p>Critically endangered due to illegal trade of their shells and habitat loss.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1549924231-f129b911e442" alt="Hawksbill Turtle">
+                <div class="info">
+                    <h3>Hawksbill Turtle</h3>
+                    <p>Critically endangered due to illegal trade of their shells and habitat loss.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1549924231-f129b911e442" alt="Hawksbill Turtle">
+                <div class="info">
+                    <h3>Hawksbill Turtle</h3>
+                    <p>Critically endangered due to illegal trade of their shells and habitat loss.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured" id="amphibians">
+        <h1 class="fd">Endangered Amphibians</h1>
+        <div class="box" id="featured-box">
+
+            <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Axolotl">
+                <div class="info">
+                    <h3>Axolotl</h3>
+                    <p>Critically endangered amphibian native to Mexico, threatened by habitat loss and pollution.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455" alt="Golden Poison Frog">
+                <div class="info">
+                    <h3>Golden Poison Frog</h3>
+                    <p>One of the most poisonous animals, endangered due to habitat destruction in Colombia.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455" alt="Golden Poison Frog">
+                <div class="info">
+                    <h3>Golden Poison Frog</h3>
+                    <p>One of the most poisonous animals, endangered due to habitat destruction in Colombia.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455" alt="Golden Poison Frog">
+                <div class="info">
+                    <h3>Golden Poison Frog</h3>
+                    <p>One of the most poisonous animals, endangered due to habitat destruction in Colombia.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455" alt="Golden Poison Frog">
+                <div class="info">
+                    <h3>Golden Poison Frog</h3>
+                    <p>One of the most poisonous animals, endangered due to habitat destruction in Colombia.</p>
+                </div>
+            </div>
+
+            <div class="animal-card">
+                <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455" alt="Golden Poison Frog">
+                <div class="info">
+                    <h3>Golden Poison Frog</h3>
+                    <p>One of the most poisonous animals, endangered due to habitat destruction in Colombia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer id="contact">
+        <form class="footer">
+            <div id="language-section" class="footer-section">
+                <h3>Language</h3>
+                <select>
+                    <option value="eng">English</option>
+                    <option value="span">Spanish</option>
+                    <option value="french">French</option>
+                    <option value="german">German</option>
+                </select>
+            </div>
+            <div id="currency-section" class="footer-section">
+                <h3>Donation Currency</h3>
+                <select name="currency" id="currency">
+                    <option value="usd">USD</option>
+                    <option value="inr">INR</option>
+                    <option value="eur">EUR</option>
+                </select>
+            </div>
+        </form>
+        <div class="footer-section">
+            <ul>
+                <li><h4>Organization</h4></li>
+                <li>About Us</li>
+                <li>Our Mission</li>
+                <li>Get Involved</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <ul>
+                <li><h4>Support</h4></li>
+                <li>Contact Us</li>
+                <li>FAQs</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+        <div class="payment">
+            <p>Support Conservation</p>
+            <p>🌍 Together for Wildlife</p>
+        </div>
+    </footer>
+    <footer class="footer2">
+        <p>© 2025 Wildlife Watch | All Rights Reserved</p>
+    </footer>
 </body>
-</html>
