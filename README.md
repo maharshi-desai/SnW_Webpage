@@ -44,7 +44,7 @@ The design is neat, scrollable, and easy to navigate.
 ---
 
 ## Files Included  
-- `index.html` → Main HTML file  
+- `species.html` → Main HTML file  
 - `species.css` → CSS styling file  
 - `Images/` → Folder with animal images  
 
